@@ -1,0 +1,191 @@
+
+/* global styles */
+
+.d-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
+}
+
+
+a {
+    color: #7279FF;
+}
+
+
+.bg-lightgrey {
+    background-color: #F8F8FC;
+}
+
+
+.font-FiraGo-ExtraBold {
+    font-family: "FiraGo-ExtraBold";
+}
+
+.font-FiraGo-Bold {
+    font-family: "FiraGo-Bold";
+}
+
+.font-FiraGo-Medium {
+    font-family: "FiraGo-Medium";
+}
+
+.font-FiraGo-Regular {
+    font-family: "FiraGo-Regular";
+}
+
+
+body {
+   color: #202631;
+}
+
+.purple-btn {
+    background-color: #7279FF;
+    color: white;
+    padding: 10px 12px;
+    border-radius: 8px;
+    transition: background-color .3s;
+}
+
+.purple-btn:hover {
+    background-color: #585FE8;
+    color: white;
+}
+
+.purple-btn i {
+    color: #E5E3F0;
+    margin-right: 6px;
+}
+
+.grey-btn {
+    background-color: #F1F2F4;
+    padding: 10px 12px;
+    border-radius: 8px;
+    transition: background-color .3s;
+}
+
+.grey-btn:hover {
+    background-color: #7279FF;
+    color: white;
+}
+
+
+
+
+/* header style */
+
+#logo {
+    width: 40px;
+    margin-right: 10px;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    margin: auto;
+    width: 100%;
+    padding: 20px 15px;
+    box-shadow: 0px 0px 30px #2026310D;
+    font-size: 16px;
+    z-index: 5;
+}
+
+header ul {
+    gap: 30px;
+}
+
+header h1 {
+    display: none;
+}
+
+header a {
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+header a:hover {
+    color: #7279FF;
+}
+
+
+
+/*  */
+.main-body{
+    margin: 0 53px;
+}
+/*  */
+
+
+/*  media rules */
+
+
+
+
+/*  tablet  ---  768 - 1024    */
+@media screen and (min-width: 768px) {
+
+    body {
+        padding-top: 34px;
+    }
+
+    header h1 {
+        display: block;
+    }
+
+    header {
+        max-width: 726px;
+        padding: 20px 30px;
+        border-radius: 16px;
+    }
+
+
+
+}
+
+
+
+/*  tablet landscape  ---  1024 - 1200    */
+@media screen and (min-width: 1024px) {
+
+    header {
+        max-width: 978px;
+    }
+    
+    
+
+}
+
+
+
+/*  notebook/PCs  ---  1200 - 1400   */
+@media screen and (min-width: 1200px) {
+    
+    header {
+        max-width: 1218px;
+    }
+
+}
+
+
+
+
+/*  notebook/PCs  ---  1400+   */
+@media screen and (min-width: 1400px) {
+    
+    header {
+        max-width: 1700px;
+    }
+    
+}
+
+
+

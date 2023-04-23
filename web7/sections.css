@@ -1,0 +1,270 @@
+
+/* bg-lightgrey */
+.section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    margin-top: 168px;
+    margin-right: 53px;
+    margin-left: 53px;
+    margin-bottom: 168px;
+
+    width: 410px;
+    height: 318px;
+}
+
+.bg-lightgrey div p{
+    max-width: 395px;
+    height: 90px;
+}
+
+.buttons-div{
+    display: flex;
+    flex-direction: row;
+}
+
+.button-lightgrey{
+    width: 190px;
+    height: 80px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 30px #2026310D;
+    border-radius: 16px;
+    opacity: 1;
+
+    margin-right: 30px;
+}
+.button-lightgrey a{
+    text-align: left;
+    font: normal normal bold 16px/19px FiraGO;
+    letter-spacing: 0px;
+    color: #202631;
+    opacity: 1;
+}
+.image{
+    width: 1.4rem;
+    height: 1.4rem;
+}
+.button-link{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    justify-content: left;
+}
+.img-div{
+    width: 40px;
+    height: 40px;
+    margin-right: 28px;
+
+    background: var(--unnamed-color-f0f9f4) 0% 0% no-repeat padding-box;
+    background: #F0F9F4 0% 0% no-repeat padding-box;
+    border-width: 9px;
+    border-radius: 8px;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.illustration-1{
+    width: 390px;
+    height: 390px;
+    background: transparent url('img/01 მთავარი გვერდის ილუსტრაცია.png') 0% 0% no-repeat padding-box;
+    border-radius: 30px;
+    opacity: 1;
+    margin-left: 90%;
+}
+
+
+.section h2{
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-34)/var(--unnamed-line-spacing-41) var(--unnamed-font-family-firago);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-202631);
+    text-align: left;
+    font: normal normal bold 34px/41px FiraGO;
+    letter-spacing: 0px;
+    color: #202631;
+    opacity: 1;
+}
+
+.section div p{
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-16)/24px var(--unnamed-font-family-firago);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-202631);
+    text-align: left;
+    font: normal normal normal 16px/24px FiraGO;
+    letter-spacing: 0px;
+    color: #202631;
+    opacity: 0.6;
+    margin-top: 34px;
+    margin-bottom: 55px;
+}
+
+
+/*  */
+/*  */
+/* second section */
+
+.secondPage{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 30px;
+    opacity: 1;
+
+    margin-bottom: 89px;
+    padding:  55px 112px;
+}
+
+.secondPage h1{
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-34)/var(--unnamed-line-spacing-41) var(--unnamed-font-family-firago);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-202631);
+    text-align: center;
+    font: normal normal bold 34px/41px FiraGO;
+    letter-spacing: 0px;
+    color: #202631;
+    opacity: 1;
+}
+
+.secondPage p{
+    max-width: 760px;
+    min-width: 680px;
+    height: 91px;
+    
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-16)/24px var(--unnamed-font-family-firago);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-202631);
+    text-align: center;
+    font: normal normal normal 16px/24px FiraGO;
+    letter-spacing: 0px;
+    color: #202631;
+    opacity: 0.6;
+
+    margin-top: 34px;
+    margin-bottom: 2em;
+    z-index: 1;
+
+
+}
+
+.secondPage button{
+    margin-bottom: 4em;
+
+    width: 154px;
+    height: 40px;
+
+    border: none;
+    background: var(--unnamed-color-7279ff) 0% 0% no-repeat padding-box;
+    background: #7279FF 0% 0% no-repeat padding-box;
+    border-radius: 8px;
+    opacity: 1;
+
+    
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) var(--unnamed-font-size-16)/var(--unnamed-line-spacing-19) var(--unnamed-font-family-firago);
+    color: #FFFFFF;
+    font: normal normal medium 16px/19px FiraGO;
+
+}
+
+.video{
+    max-width: 762px;
+    max-height: 429px;
+
+    background: var(--unnamed-color-7279ff) 0% 0% no-repeat padding-box;
+    background: #7279FF 0% 0% no-repeat padding-box;
+    border-radius: 16px;
+    opacity: 0.3;
+}
+
+/*  */
+/*  */
+/* sectionThird */
+.sectionThird{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.sectionThird h1{
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-34)/var(--unnamed-line-spacing-41) var(--unnamed-font-family-firago);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-202631);
+    text-align: left;
+    font: normal normal bold 34px/41px FiraGO;
+    letter-spacing: 0px;
+    color: #202631;
+    opacity: 1;
+}
+
+.sectionThird p{
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-16)/24px var(--unnamed-font-family-firago);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-202631);
+    text-align: center;
+    font: normal normal normal 16px/24px FiraGO;
+    letter-spacing: 0px;
+    color: #202631;
+    opacity: 0.6;
+
+    margin-top: 21px;
+    margin-bottom: 55px;
+}
+
+.gOROF{
+    display: flex;
+    flex-direction: column;
+}
+
+.rOF{
+    display: flex;
+    flex-direction: row;
+}
+
+.middle{
+    margin-left: 110px;
+    margin-right: 110px;
+}
+.figure img{
+
+    width: 233px;
+    height: 233px;
+    background: transparent url('./students.jpg') 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 30px #2026310D;
+    border-radius: 16px;
+    opacity: 1;
+}
+
+.tssd{
+    margin-top: 142px;
+}
+.sectionThird button{
+    width: 154px;
+    height: 40px;
+    margin-top: 74px;
+    background: var(--unnamed-color-7279ff) 0% 0% no-repeat padding-box;
+    background: #7279FF 0% 0% no-repeat padding-box;
+    border-radius: 8px;
+    opacity: 1;
+
+    border: none;
+    color: white;
+    font: normal normal medium 16px/19px FiraGO;
+
+
+    letter-spacing: var(--unnamed-character-spacing-0);
+}
