@@ -1,31 +1,29 @@
 
 /* bg-lightgrey */
 .section {
-    display: flex;
-    flex-direction: row;
+    /* display: flex;
+    flex-direction: row; */
     align-items: center;
 
     margin-top: 168px;
     margin-right: 53px;
-    margin-left: 53px;
+    /* margin-left: 53px; */
     margin-bottom: 168px;
-
-    width: 410px;
-    height: 318px;
+    width: 100%;
+    /* width: 410px;
+    height: 318px; */
 }
 
-.bg-lightgrey div p{
-    max-width: 395px;
-    height: 90px;
-}
+/* .bg-lightgrey div p{
+    /* max-width: 395px;
+    height: 90px; 
+}*/
 
-.buttons-div{
-    display: flex;
-    flex-direction: row;
-}
 
 .button-lightgrey{
-    width: 190px;
+
+    padding: 20px;
+    margin: 0 0 20px; 
     height: 80px;
 
     display: flex;
@@ -81,7 +79,10 @@
     background: transparent url('img/01 მთავარი გვერდის ილუსტრაცია.png') 0% 0% no-repeat padding-box;
     border-radius: 30px;
     opacity: 1;
-    margin-left: 90%;
+
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
 }
 
 
@@ -90,7 +91,7 @@
     letter-spacing: var(--unnamed-character-spacing-0);
     color: var(--unnamed-color-202631);
     text-align: left;
-    font: normal normal bold 34px/41px FiraGO;
+    font: normal normal bold 1.6rem FiraGO;
     letter-spacing: 0px;
     color: #202631;
     opacity: 1;
@@ -130,11 +131,11 @@
 }
 
 .secondPage h1{
-    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-34)/var(--unnamed-line-spacing-41) var(--unnamed-font-family-firago);
+    /* font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-34)/var(--unnamed-line-spacing-41) var(--unnamed-font-family-firago); */
     letter-spacing: var(--unnamed-character-spacing-0);
     color: var(--unnamed-color-202631);
     text-align: center;
-    font: normal normal bold 34px/41px FiraGO;
+    
     letter-spacing: 0px;
     color: #202631;
     opacity: 1;
@@ -142,14 +143,14 @@
 
 .secondPage p{
     max-width: 760px;
-    min-width: 680px;
+    min-width: 450px;
     height: 91px;
     
-    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-16)/24px var(--unnamed-font-family-firago);
+    /* font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-16)/24px var(--unnamed-font-family-firago); */
     letter-spacing: var(--unnamed-character-spacing-0);
     color: var(--unnamed-color-202631);
     text-align: center;
-    font: normal normal normal 16px/24px FiraGO;
+    /* font: normal normal normal 16px/24px FiraGO; */
     letter-spacing: 0px;
     color: #202631;
     opacity: 0.6;
@@ -164,7 +165,8 @@
 .secondPage button{
     margin-bottom: 4em;
 
-    width: 154px;
+    min-width: 154px;
+    
     height: 40px;
 
     border: none;
@@ -181,9 +183,8 @@
 }
 
 .video{
-    max-width: 762px;
-    max-height: 429px;
 
+    
     background: var(--unnamed-color-7279ff) 0% 0% no-repeat padding-box;
     background: #7279FF 0% 0% no-repeat padding-box;
     border-radius: 16px;

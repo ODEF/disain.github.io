@@ -1,0 +1,157 @@
+
+
+
+
+/*  tablet  ---  768 - 1024    */
+@media screen and (min-width: 768px) {
+
+    body {
+        padding-top: 34px;
+    }
+
+    header h1 {
+        display: block;
+    }
+
+    header {
+        max-width: 726px;
+        padding: 20px 30px;
+        border-radius: 16px;
+    }
+    /* second page */
+    .secondPage h1{
+            font: normal normal bold 34px/41px FiraGO;
+    }
+
+    .secondPage p{
+        font: normal normal 24px FiraGO;
+        max-width: 728px;
+    }
+
+}
+
+
+
+/*  tablet landscape  ---  1024 - 1200    */
+@media screen and (min-width: 1024px) {
+    .video{
+        width: 762px;
+        height: 429px;
+    }
+
+
+    .main-body{
+        margin: 0 53px;
+    }
+    header {
+        max-width: 978px;
+    }
+    .buttons-div{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .section{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .illustration-1{
+        margin-left: 90%;
+    }
+
+    /* second page */
+    .secondPage h1{
+        font: normal normal bold 34px/41px FiraGO;
+    }
+    .secondPage p{
+        font: normal normal 1rem FiraGO;
+        max-width: 768px;
+    }
+   
+}
+
+@media screen and (max-width: 990px) {
+    .section h2{
+        font-size: 1rem;
+    }
+    .section p{
+        width: 395px;
+    }
+    .buttons-div{
+        display: block;
+        width: 100%;
+        
+    }
+    .button-lightgrey{
+       width: 100%;
+       display: block;
+        
+        width: 100%;
+        object-fit: contain;
+        margin-bottom: 34px;
+    }
+
+    .illustration-1, .sectionfulldiv{
+        display: block;
+    }
+
+    /* second page */
+    .secondPage h1{
+        font: normal normal bold 1.6rem FiraGO;
+    }
+    .secondPage p{
+        width: 100%;
+        
+    }
+
+    .secondPage button{
+        width: 150%;
+        margin-top: 51px;
+    }
+
+    .video{
+        width: 100%;
+        height: 100%;
+    }
+    .secondPage p{
+        font-size: 1rem;
+    }
+    
+}
+
+/*  notebook/PCs  ---  1200 - 1400   */
+@media screen and (min-width: 1200px) {
+    
+    header {
+        max-width: 1218px;
+    }
+
+    /*  second page*/
+  
+    .secondPage h1{
+        font: normal normal bold 34px/41px FiraGO;
+    }
+   .secondPage p{
+        font: normal normal 1rem FiraGO;
+    }
+}
+
+
+
+
+/*  notebook/PCs  ---  1400+   */
+@media screen and (min-width: 1400px) {
+    
+    header {
+        max-width: 1700px;
+    }
+
+    .secondPage h1{
+        font: normal normal bold 34px/41px FiraGO;
+    }
+    .secondPage p{
+        font: normal normal 1rem FiraGO;
+    }
+    
+}

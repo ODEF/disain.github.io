@@ -119,73 +119,14 @@ header a:hover {
 
 
 /*  */
-.main-body{
+/* .main-body{
     margin: 0 53px;
-}
+} */
 /*  */
 
 
 /*  media rules */
 
-
-
-
-/*  tablet  ---  768 - 1024    */
-@media screen and (min-width: 768px) {
-
-    body {
-        padding-top: 34px;
-    }
-
-    header h1 {
-        display: block;
-    }
-
-    header {
-        max-width: 726px;
-        padding: 20px 30px;
-        border-radius: 16px;
-    }
-
-
-
-}
-
-
-
-/*  tablet landscape  ---  1024 - 1200    */
-@media screen and (min-width: 1024px) {
-
-    header {
-        max-width: 978px;
-    }
-    
-    
-
-}
-
-
-
-/*  notebook/PCs  ---  1200 - 1400   */
-@media screen and (min-width: 1200px) {
-    
-    header {
-        max-width: 1218px;
-    }
-
-}
-
-
-
-
-/*  notebook/PCs  ---  1400+   */
-@media screen and (min-width: 1400px) {
-    
-    header {
-        max-width: 1700px;
-    }
-    
-}
 
 
 
