@@ -28,6 +28,12 @@
         max-width: 728px;
     }
 
+
+    /* third page */
+    .rOF{
+        display: flex;
+        flex-direction: row;
+    }
 }
 
 
@@ -69,6 +75,11 @@
         max-width: 768px;
     }
    
+        /* third page */
+        .rOF{
+            display: flex;
+            flex-direction: row;
+        }
 }
 
 @media screen and (max-width: 990px) {
@@ -118,6 +129,10 @@
         font-size: 1rem;
     }
     
+    /* third page */
+    .rOF, .figure{
+        display: block;
+    }
 }
 
 /*  notebook/PCs  ---  1200 - 1400   */
@@ -134,6 +149,12 @@
     }
    .secondPage p{
         font: normal normal 1rem FiraGO;
+    }
+
+    /* third page */
+    .rOF{
+        display: flex;
+        flex-direction: row;
     }
 }
 
@@ -153,5 +174,11 @@
     .secondPage p{
         font: normal normal 1rem FiraGO;
     }
+
+        /* third page */
+        .rOF{
+            display: flex;
+            flex-direction: row;
+        }
     
 }

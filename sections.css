@@ -231,10 +231,7 @@
     flex-direction: column;
 }
 
-.rOF{
-    display: flex;
-    flex-direction: row;
-}
+
 
 .middle{
     margin-left: 110px;
